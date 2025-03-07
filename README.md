@@ -4,7 +4,7 @@
 
 This project is a machine learning image classifier built using **PyTorch**. It trains a **Convolutional Neural Network (CNN)** to classify images from the **CIFAR-10 dataset** into 10 categories.
 
-## 📂 Project Structure
+## Project Structure
 image_classifier/
 ├── datasets.py       # Data loading (CIFAR-10)
 ├── model.py           # CNN model definition
@@ -29,7 +29,7 @@ The model classifies images into one of the following 10 classes:
 - ship
 - truck
 
-## ⚡ How to Use
+## How to Use
 
 ### 1️⃣ Create Virtual Environment
 python -m venv venv source venv/bin/activate # Mac/Linux venv\Scripts\activate # Windows
@@ -48,11 +48,11 @@ python test.py
 Place your image (e.g., `horse.jpg`) in the folder and run:
 python predict.py horse.jpg
 
-## 🚀 Notes
+## Notes
 - This is trained only on CIFAR-10, so the model expects images related to those 10 classes.
 - For best results, images should be resized to 32x32 (handled automatically in predict.py).
 
-## 💻 Requirements
+## Requirements
 - Python 3.8+
 - torch
 - torchvision
